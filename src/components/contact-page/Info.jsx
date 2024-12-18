@@ -14,23 +14,6 @@ function Info() {
         the leap into electronic types etting.type specimen It has survived not
         only five centuries, but also the type specimen book.
       </p>
-      <div className="grid 2xl:grid-cols-2 2xl:gap-y-8">
-        <div>
-          <h4 className={headingStyles}>Tehran, Iran</h4>
-          <address className="font-medium not-italic text-gray-300">
-            7th Golestan St,
-            <br /> Pasdaran St, Tehran
-          </address>
-        </div>
-        <div>
-          <h4 className={headingStyles}>Opening Hours</h4>
-          <p className="whitespace-nowrap font-medium text-gray-300">
-            Mon to Fri: 7:30 am — 1:00 am
-          </p>
-          <p className="whitespace-nowrap font-medium text-gray-300">
-            Mon to Fri: 7:30 am — 1:00 am
-          </p>
-        </div>
         <div>
           <h4 className={headingStyles}>Information</h4>
           <a
@@ -51,7 +34,6 @@ function Info() {
           <SocialLinks />
         </div>
       </div>
-    </div>
   );
 }
 

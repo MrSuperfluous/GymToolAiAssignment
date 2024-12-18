@@ -11,12 +11,13 @@ import PricingCards from "../components/pricing/PricingCards";
 import Blog from "../components/blog/Blog";
 import CallToAction2 from "../components/call-to-action2/CallToAction2";
 import About from "./About";
-
+import OurBenefits from "../components/benefits/OurBenefits";
 function Home() {
   return (
     <main>
       <Hero />
       <About />
+      <OurBenefits />
       <FeaturedClass />
       <CallToAction />
       <ChooseUs />

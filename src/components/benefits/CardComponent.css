@@ -1,0 +1,26 @@
+.card {
+    background-color: #111;
+    border: 1px solid #333;
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .card-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: red;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    color: red;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-description {
+    font-size: 0.9rem;
+    color: #bbb;
+  }
+  

@@ -1,0 +1,58 @@
+/* Container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Top and Bottom Sections */
+  .top-section,
+  .bottom-section {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  /* Middle Image Styling */
+  .middle-image img {
+    width: 250px; /* Adjust as per design */
+    height: auto;
+  }
+  /* Top Heading */
+.top-heading {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .our-benefits {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Main Title */
+  .main-title {
+    color: red;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Subtitle */
+  .subtitle {
+    color: #aaa;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
