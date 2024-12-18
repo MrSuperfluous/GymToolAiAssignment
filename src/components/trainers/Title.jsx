@@ -4,11 +4,10 @@ import TertiaryHeading from "../headings/TertiaryHeading";
 function Title() {
   return (
     <div className="text-center">
-      <SecondaryHeading>Gym trainers</SecondaryHeading>
-      <TertiaryHeading>Team of expert coaches</TertiaryHeading>
+      
+      <TertiaryHeading color="red">OUR SERVICES</TertiaryHeading>
       <p className="mx-auto max-w-[42ch] font-medium text-gray-300">
-        Expert team of coaches helps you succeed in any goal, personalized
-        guidance and motivation provided!
+      GymFluencer offers 5 essential services to help you achieve your fitness goals with ease and flexibility.
       </p>
     </div>
   );
