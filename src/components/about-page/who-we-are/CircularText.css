@@ -1,0 +1,42 @@
+/* Parent container */
+.circular-container {
+  width: 100%; /* Full screen width */
+  overflow: hidden; /* Hide overflowing text */
+  white-space: nowrap; /* Prevent text wrapping */
+  position: relative;
+  background-color: #000; /* Optional background color */
+  padding: 1rem 0; /* Optional padding */
+}
+
+/* Scrolling text container */
+.circular-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scrollText 10s linear infinite; /* Smooth infinite scrolling */
+}
+
+/* Duplicate content for seamless scrolling */
+.circular-text::after {
+  content: attr(data-text); /* Duplicate the content dynamically */
+  display: inline-block;
+  padding-left: 2rem; /* Adjust spacing */
+}
+
+/* Text styling */
+.circular-text span {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  padding-right: 2rem; /* Space between repeated text */
+}
+
+/* Smooth scrolling animation */
+@keyframes scrollText {
+  from {
+    transform: translateX(0); /* Start position */
+  }
+  to {
+    transform: translateX(-100%); /* Move out of view */
+  }
+}

@@ -10,12 +10,13 @@ import BMI from "../components/bmi/BMI";
 import PricingCards from "../components/pricing/PricingCards";
 import Blog from "../components/blog/Blog";
 import CallToAction2 from "../components/call-to-action2/CallToAction2";
+import About from "./About";
 
 function Home() {
   return (
     <main>
       <Hero />
-      <WhoWeAre />
+      <About />
       <FeaturedClass />
       <CallToAction />
       <ChooseUs />
