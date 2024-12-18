@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import logoWhite from "../../images/logo/logo.svg";
-import logoBlack from "../../images/logo/logo-footer.svg";
+import logoWhite from "../../images/logo/logo.png";
+import logoBlack from "../../images/logo/logo.png";
 
 function Logo({ size = "w-full", type = "white" }) {
   return (
