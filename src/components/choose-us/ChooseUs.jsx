@@ -1,19 +1,13 @@
-import Image from "./Image";
-import Features from "./Features";
+import RecentPosts from "../blog-page/RecentPosts";
 import Title from "./Title";
-import SecondaryButton from "../buttons/SecondaryButton";
 
 function ChooseUs() {
   return (
-    <section className="relative z-[1] overflow-x-clip bg-[url('./images/choose-us/bg.webp')] bg-cover bg-no-repeat px-6 py-32">
-      <div className="container grid gap-20 2xl:grid-cols-2">
-        <Image />
-
-        <div className="text-center 2xl:text-left">
-          <Title />
-          <Features />
-          <SecondaryButton to="/classes">Our classes</SecondaryButton>
-        </div>
+    <section className="relative overflow-clip bg-[url('./images/choose-us/bg.webp')] px-6 py-32 after:absolute after:right-0 after:top-0 after:z-[-1] after:h-96 after:w-full after:animate-float1 after:bg-[url('./images/trainers/bg-attachment.png')] after:bg-right after:bg-no-repeat">
+      <div className="container space-y-14">
+        <Title />
+        <RecentPosts />
+        
       </div>
     </section>
   );

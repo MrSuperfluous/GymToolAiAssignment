@@ -5,7 +5,7 @@ function TertiaryHeading({ color = "red", children }) {
         color === "white"
           ? "text-white"
           : color === "red"
-          ? "text-red-500"
+          ? "text-red"
           : `text-${color}`
       }`}
     >
